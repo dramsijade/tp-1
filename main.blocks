@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="5sOW6Ly!+F7iQ-%lj[5V" x="150" y="43"><statement name="HANDLER"><block type="controls_if" id="+KugDmW]2G+z/9OJ*]q;"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="p[@2rFh16Z#@eQ==KIb1"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_acceleration" id="M_HA^FQlzT*jK/b=C%C%"><field name="NAME">Dimension.Y</field></block></value><value name="B"><shadow type="math_number" id="DUJ(!1y[m4UK!qx[bgUk"><field name="NUM">-100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="]}lb.AEL._p!npdKG9)P"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="Q?qpRLn~~:=2wr)[3Q2Q"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_acceleration" id="=0M..i,DZ4UN|BESlVp("><field name="NAME">Dimension.Y</field></block></value><value name="B"><shadow type="math_number" id="C#w-2A.B{sp:IoA@37Bb"><field name="NUM">100</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="{n0eNvy=yl?iy0@K8RE~"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="bB[m*,@3bt*,8(rv_`8^"><field name="i">IconNames.Yes</field></block></statement></block></statement></block></xml>
